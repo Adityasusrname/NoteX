@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Add.AddFragment">
+
+    <EditText
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:hint="Title"
+        android:singleLine="true"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="60dp"
+        android:inputType="textMultiLine"
+        android:layout_gravity="top|start"
+        android:singleLine="false"
+        android:hint="Type your note here....."
+        android:textColorHint="@color/black"/>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        >
+
+
+    </Button>
+
+
+</FrameLayout>
+
+
+
+
